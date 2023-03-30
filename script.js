@@ -15,4 +15,3 @@ async function fetchActivity(){
         }                   
 }
 button.addEventListener('click',fetchActivity);
-//&type=${actype.value}

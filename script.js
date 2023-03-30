@@ -7,7 +7,6 @@ async function fetchActivity(){
                 let response = await fetch(url);
                 if(response.ok){
                     let data = await response.json();
-                    console.log(data);
                     text.innerHTML=data.activity;
             }   
         } catch (error) {
@@ -15,4 +14,3 @@ async function fetchActivity(){
         }                   
 }
 button.addEventListener('click',fetchActivity);
-//&type=${actype.value}

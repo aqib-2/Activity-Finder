@@ -15,3 +15,4 @@ async function fetchActivity(){
         }                   
 }
 button.addEventListener('click',fetchActivity);
+/
